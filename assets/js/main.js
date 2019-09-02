@@ -52,8 +52,14 @@ const sendPhp = (e) => {
     xhr.onload = () => {
         if(xhr.status === 200){
             console.log(xhr.responseText)
-            let form = document.getElementById('form')
-            document.getElementById('sub').textContent = `${xhr.responseText}`
+            
+            let responseTxt = document.getElementById('reply-text')
+            //document.getElementById('reply-text').textContent = `${xhr.responseText}`
+            responseTxt.textContent = `${xhr.responseText}`
+            responseTxt.style.color = "black"
+            responseTxt.style.border = "thick solid black"
+            responseTxt.style.padding = "5px"
+            responseTxt.style.backgroundColor = "red"
         }
             else if (xhr.status === 500){
                 console.log('Internal Server Erroe')
