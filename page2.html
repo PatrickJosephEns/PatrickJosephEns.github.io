@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/items.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel = "icon" href = "https://clipartion.com/wp-content/uploads/2015/11/cartoon-surfboard-clipart-free-clip-art-images.png">
+  </head>
+  <body>
+    <header>
+      <h1 id="title"><img id = "logo" src = "https://clipartion.com/wp-content/uploads/2015/11/cartoon-surfboard-clipart-free-clip-art-images.png"></img>
+        BoardZ and FinZ </h1>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a class="nav-active" href="index.html">Contents</a>
+            <ul class="dropdown-1">
+              <li><a href="page2.html">SurfBoards</a></li>
+              <li><a href="page3.html">Fins</a></li>
+            </ul>   
+          </li>
+          <li><a href="page4.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    <div class = "row"> 
+        <aside>
+          <h2>About:</h2>
+          <p>This page will prvide a range of shortboards all from differnt popular brands. Many of these boards are ridden by proffesionals on the WSL. Looking at these will hopfully help you to get an idea of the type of shortboard you would like.</p>
+            
+            <h3>Comment Section</h3>
+            <div class = "placeholder sub">
+                <form id="comment-form">
+                    <fieldset>
+                            <legend>Enter Below</legend>
+                        <label>First Name: <br/><input type="text" id="name-data"></label><br/><br/>
+                        <label>Comment</label>
+                        <textarea name="comment" id="comment-data" cols="30" rows="10"></textarea>
+                        <br><br>
+                        <button type="submit">Submit Commnet</button>
+                        <div id="post"></div>         
+                    </fieldset>
+                </form>
+                   
+            </div>
+
+            <br>
+
+        </aside>
+
+        <section>
+            <h2 class = "head2">Surfboards</h2>
+            <div class = "placeholder main">
+              <div id="items">
+                  
+              </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Basic DOM manipulation -->
+
+    <footer>Copyright &#160; BoardsandWeties.inc</footer>
+
+    <script src="./assets/js/page2.js"></script>
+  </body>
+</html>

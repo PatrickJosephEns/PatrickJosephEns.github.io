@@ -1,123 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel = "icon" href = "https://clipartion.com/wp-content/uploads/2015/11/cartoon-surfboard-clipart-free-clip-art-images.png">
+  </head>
+  <body>
+    <header>
+      <h1 id="title"><img id = "logo" src = "https://clipartion.com/wp-content/uploads/2015/11/cartoon-surfboard-clipart-free-clip-art-images.png"></img>
+     BoardZ and FinZ </h1>
+       </header>
 
-        <header>
-                <h1 id = "tit">Checkpoint 4</h1>
-            </header>
-        
-            <nav>
-                <a href="#">Page 1</a>
-                <a href="#">Page 2</a>
-                <a href="#">Page 3</a>
-            </nav>
-        
-            <div class = "row"> 
-                <aside>
-                    
-                    <h3>CheckPoint 4</h3>
-                    <p>Click Load From Text or Json File</p>
-                    <div class = "placeholder sub">
-                        <input type="button" id = "ajax-txt-btn" value="Load from text file">   
-                        <p id="txt"></p>                           
-                    </div>
+    <nav>
+      <ul>
+        <li><a class="nav-active" href="index.html">Home</a></li>
+        <li>
+          <a href="index.html">Contents</a>
+          <ul class="dropdown-1">
+            <li><a href="page2.html">SurfBoards</a></li>
+            <li><a href="page3.html">Fins</a></li>
+          </ul>   
+        </li>
+        <li><a href="page4.html">Contact</a></li>
+      </ul>
+    </nav>
 
-                    <br>
-                    <div class = "placeholder sub">
-                      <input type="button" id = "ajax-json-btn" value="Load from json file">
-                      <ul id = "list">
-                      </ul>
-                    </div>
-                    <br />
-
-                    
-                    <div class = "placeholder sub">
-                      <form action="" id="form">
-                        <label>First Name <br><input type="text"  id="first-name"></label>
-                        <br>
-                        <label>Last Name <br><input type="text"  id="last-name"></label>
-                        <br>
-                        <label>Email <br><input type="text"  id="email"></label>
-                        <button type = "submit" id = "ajax-php-btn">Submit Form</button>
-
-                        <p id ="reply-text"></p>
-                      </form>
-                    </div>
-
-
-                </aside>
-        
-                <section>
-                    <h2>Heading Example</h2>
-                    <div class = "placeholder main">
-                    </div>
-                    <p>Post a comment</p>
-                    <p>
-                            <textarea name="comment" id="comment-input" cols="30" rows="10"></textarea>
-                            <br />
-                            <input id = "comment-data" type="button" value="Post">
-                            <p id="comment-output"></p>
-                            <p id="comment-lastmod"></p>
-                            <p id="comment-postId"></p>
-                    </p>
-                    <br>
-                    <h2>Heading 2</h2>
-                    <div class = "placeholder main">
-                    </div>
-
-                    <p>
-                            <h2>Add to a list</h2>
-                            <form id="to-do-list">
-                             <input type="text" id="todoInput">
-                             <button id="todolistButton" type="button">Add Item</button>
-                            </form>
-                            <ul id = "todoList"></ul>
-                    </p>
-                    <p>Table Example</p>
-                    <table>
-                            <tr>
-                              <th>Firstname</th>
-                              <th>Lastname</th>
-                              <th>Phone</th>
-                            </tr>
-                            <tr>
-                              <td>Pat</td>
-                              <td>Ens</td>
-                              <td>0800-420-420</td>
-                            </tr>
-                            <tr>
-                              <td>Conrad</td>
-                              <td>Thomas</td>
-                              <td>0271234567</td>
-                            </tr>
-                            <tr>
-                              <td>Sam</td>
-                              <td>Hewy</td>
-                              <td>02234455</td>
-                            </tr>
-                            <tr>
-                              <td>Alby</td>
-                              <td>IDK</td>
-                              <td>0271234567</td>
-                            </tr>
-                          </table>
-                </section>
-            </div>
-        
+    <div class = "row"> 
+        <aside>
             
+            <h3>About the developer</h3>
+            <p>After years as a web developer; Patrick Ens put his total 34 years of expirence into one website that he could showcase to the world. You would have already noticed some ground breaking and visualy stunning features such as the DOM manipulation and exquisite comments sections. This site is truely the pinical of human evolution and Sir Patrick has compleatly outdone himself.</p>
+
+ <br>
+            <div class = "placeholder sub">
+    <img src = "https://scontent-sea1-1.cdninstagram.com/vp/a8da1acf3fa42962ee8a1dbb5e36cbdd/5DFC574E/t51.2885-19/s150x150/62024153_2426361680925910_3774611293462331392_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com">
+            </div>
+
+        </aside>
+
+        <section>
+            <h2>About</h2>
+            <div class = "placeholder main">
+              <p>Thank you for visiting "BoardZ and finZ"!</p>
+              <p>This is a website that allows you to look at a number of diferent boards and fins
+                from differnt brands. You can leave comments and reviews.  
+              </p>
+              <p> Its that simple. Enjoy.</p>
+            </div>
+
+        </section>
+    </div>
+
     <!-- Basic DOM manipulation -->
 
-    <footer>Copyright &#160; Practice ens.inc</footer>
+    <footer>Copyright &#160; BoardsandWeties.inc</footer>
 
-    <script src="./assets/js/main.js"></script>
-</body>
+    <script src="/assignment-Pat/assets/js/main.js"></script>
+  </body>
 </html>

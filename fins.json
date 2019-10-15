@@ -1,0 +1,49 @@
+[
+    {
+        "brand": "FCS",
+        "model": "REACTOR PC CARBON",
+        "price": "$210",
+        "image": "https://cdn.shopify.com/s/files/1/0053/6995/4422/products/FCSII_REACTOR_PC_CARBON_TRI_1200x.jpg?v=1528956993",
+        "descrip":"Designed for speed and tight turns, with added tail release. Upright template allows for tighter, more acute directional changes. Smaller centre fin for increased pivot and tail release. Ideal for surfers who like to perform fast, progressive turns."
+    },
+
+    {
+        "brand": "Futures",
+        "model": "Tiller 8.0",
+        "price": "$85",
+        "image": "https://futuresfins.com/media/catalog/product/cache/4/thumbnail/9df78eab33525d08d6e5fb8d27136e95/f/u/futures_tiller_8_surfboard_fins.jpg",
+        "descrip":"The Tiller is a modern spin on a classic favorite. With a large base for holding your line and a thinned tip for added responsiveness from rail to rail, the Tiller is great template for your favorite mid-length, egg, log , bonzer or 2+1. This timeless flex fin is offered in 8”, 9” & 10” to really customize your ride."
+    },
+
+    {
+        "brand": "FCS",
+        "model": "PERFORMER GLASS FLEX",
+        "price": "$95",
+        "image": "https://cdn.shopify.com/s/files/1/0053/6995/4422/products/FCSII_PERFORMER_GLASSFLEX_TRI_1200x.jpg?v=1528956994",
+        "descrip":"Designed for a balance of speed, flow & response. Well proportioned template with Inside Foil Technology (IFT). Ideal for surfers who want a reliable ‘All Round’ fin delivering a combination of speed and maneuverability with flow between turns."
+    },  
+
+    {
+        "brand": "FCS",
+        "model": "DHD PC",
+        "price": "$240",
+        "image": "https://cdn.shopify.com/s/files/1/0053/6995/4422/products/FCSII_DHD_LARGE_BW_TRI_copy_8d352e89-f133-4553-b12b-eb7d0628bf2a_1200x.jpg?v=1560321202",
+        "descrip":"Developed in conjunction with Darren Handley from DHD Surfboards. Suited to performance and hybrid shortboards. Gloss finish inside face / sanded finish outside face."
+    },
+
+    {
+        "brand": "Futures",
+        "model": "AM2 Techflex",
+        "price": "$150",
+        "image": "https://futuresfins.com/media/catalog/product/cache/4/thumbnail/9df78eab33525d08d6e5fb8d27136e95/f/u/futures_techflex_am2_2017_surfboard_fins.jpg",
+        "descrip":"The AM2 Techflex, designed by Al Merrick of Channel Island Surfboards, is a large size Speed Control fin with a Ride Number of 4.0. The template features a wider base and refined tip, for the perfect mix of drive and release. The Techflex construction and flat foil give this fin a stable feel, making it ideal for controlling speed in more powerful waves."
+    },
+
+    {
+        "brand": "Futures",
+        "model": "John John (M) Alpha",
+        "price": "$100",
+        "image": "https://futuresfins.com/media/catalog/product/cache/4/thumbnail/9df78eab33525d08d6e5fb8d27136e95/f/u/futures_alpha_netplus_jjf_medium_surfboard_fins_1.jpg",
+        "descrip":"The John John Florence Alpha fin is a medium sized Balanced fin with a Ride Number of 5.5. It is the same template that JJF rode to the WSL World Championship in 2016 and that has been a global best seller since the initial release. The C6 material and flat foil make this fin predictable, yet more lively in softer surf. All Alpha products are designed and manufactured exclusively in Huntington Beach, Ca USA."
+    }
+]

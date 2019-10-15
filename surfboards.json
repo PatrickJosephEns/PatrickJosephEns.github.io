@@ -1,0 +1,41 @@
+[
+    {
+        "brand": "DHD",
+        "model": "DX1",
+        "price": "$1200",
+        "image": "https://cdn.shopify.com/s/files/1/1246/3343/products/DHD_DX1_Jack_Freestone_Surfboard2.jpg?v=1501945506",
+        "descrip":"This model runs a single concave all the way through that gets quiet deep through the belly into the tail with a smooth plan shape combined with a smooth rocker and a tight super squash tail."
+    },
+
+    {
+        "brand": "Lost",
+        "model": "Puddle Jumper HP",
+        "price": "$600",
+        "image": "https://lostsurfboards.net/wp-content/uploads/2019/01/PJHP.png",
+        "descrip":"The Puddle Jumper HP is a souped up, slimmed down,playful Puddle Jumper. It features a pulled in nose with the wide point brought back, and a narrower, pulled in tail block. Stand on the tail of this thing and simply go to town, up and down, round and round, like you have a motor in small surf. The tail, with its foiled rails and deep vee, holds in and gives confidence at high speeds. The overall at rocker, generous width, and deep central concave generate small wave squirt like you would expect from a Puddle jumper."
+    },
+
+    {
+        "brand": "Channel Island",
+        "model": "OG Flyer",
+        "price": "$899",
+        "image": "https://cdn.shoplightspeed.com/shops/612458/files/7990182/channel-islands-surfboards-58-og-flyer-fcs2.jpg",
+        "descrip":"Best as an everyday board in everyday conditions, The Flyer has a single concave entry to double through the middle and a vee exit, Al’s signature bump squash, slight down rail, and a subtle nose beak.  To be ridden approximately the same length as you are tall."
+    },
+
+    {
+        "brand": "JS Industries",
+        "model": "Monsta Box",
+        "price": "$950",
+        "image": "https://content.cavewire.com/host/jsindustries-au/path/media/catalog/product/cache/1/thumbnail/800x/e4d92e6aceaad517e7b5c12e0dc06587/2/0/2018-monsta-box-full-js-industries-surfboards.jpg",
+        "descrip":"The Monsta Box's features reflect all of the Monsta 8 and Blak Box 2's best bits, falling right in the middle to create a user-friendly yet still performance oriented board you can rely on around the year, and around the world. Whether you’re travelling light or the budget's a little tight, this board has you covered. If you could only take one board to the beach then the Monsta Box is it!"
+    },
+
+    {
+        "brand": "Pyzel",
+        "model": "Phantom",
+        "price": "$1250",
+        "image": "https://content.cavewire.com/host/pyzel-au/path/media/catalog/product/cache/1/thumbnail/800x/3792e1346258422eb320f48364c017b1/p/h/phantom.jpg",
+        "descrip":"The Phantom is a Ghost squashed down, souped up, and with added volume, great for your everyday sessions in less than epic conditions. Best in waist-high to overhead waves of all types the Phantom is your daily driver with a high performance edge. Ride it around your height, a touch wider and about the same thickness as your Ghost"
+    }
+]
