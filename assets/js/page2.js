@@ -1,5 +1,4 @@
 const items = document.getElementById('items');
-const list = document.getElementById('item-list');
 
 const xhr = new XMLHttpRequest();
 
@@ -16,7 +15,7 @@ xhr.onload = () => {
             <p class = "model"> ${p.model} </p>
             <p class = "brand">By: ${p.brand} </p>   
             <p class = "price"> ${p.price} </p>
-            <p class = "des"> About the board: <br>${p.descrip} </p>
+            <p class = "des"> About the board: <br>${p.descrip} </p>                 
             </div>
             </div>
             <br>`

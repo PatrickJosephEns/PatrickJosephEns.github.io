@@ -1,4 +1,4 @@
-//comment section
+//contact section
 const form = document.getElementById('comment-form');
 const comments = document.getElementById('post');
 
@@ -18,7 +18,7 @@ const comments = document.getElementById('post');
             alert("Please enter a comment");
         }
         else{
-        comments.innerHTML = `<div class="comment"> <p>${name}</p><p>${email}</p><p>${time}</p><br><p>${comment}</p><br></div> <br>` + comments.innerHTML;
+        comments.innerHTML = `<p>Thank you  ${name} your message has been sent!</p>` + comments.innerHTML;
         }
         
     };

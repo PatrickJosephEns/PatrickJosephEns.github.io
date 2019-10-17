@@ -60,6 +60,21 @@
         padding: 20px;
     }
     
+    fieldset{
+        border-radius: 15px;
+        
+    }
+
+    #name-data, 
+    #email-data,
+    #comment-data{
+        border-radius: 15px;
+    }
+
+    #submit-btn{
+        border-radius: 15px;
+    }
+
     @media screen and (max-width: 700px){
     .row,
     nav {
@@ -87,12 +102,6 @@
       #title{
         margin: 0px;
       }
-
-      .comment{
-          border: 1px solid black;
-      }
-
-
 
       /* ----- NAV BAR W/ DROPDOWN Credit Conrad----- */
 nav {
@@ -123,7 +132,6 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    /* text-align: center; */
 }
 
 nav ul li {

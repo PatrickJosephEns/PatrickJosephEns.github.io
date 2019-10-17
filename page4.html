@@ -19,11 +19,13 @@
     <link rel = "icon" href = "https://clipartion.com/wp-content/uploads/2015/11/cartoon-surfboard-clipart-free-clip-art-images.png">
   </head>
   <body>
+
     <header>
-      <h1 id="title"><img id = "logo" src = "https://clipartion.com/wp-content/uploads/2015/11/cartoon-surfboard-clipart-free-clip-art-images.png"></img>
+      <h1 id="title"><img id = "logo" src = "https://clipartion.com/wp-content/uploads/2015/11/cartoon-surfboard-clipart-free-clip-art-images.png" alt = "logo of surfboard"/>
         BoardZ and FinZ </h1>
     </header>
 
+    <!-- navigation bar -->
     <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -38,22 +40,22 @@
         </ul>
       </nav>
 
+    <!-- contents of page -->
     <div class = "row"> 
-        
 
         <section>
             <h2>Contact us</h2>
             <div class = "placeholder main">
               <form id="comment-form">
                 <fieldset>
-                        <legend>Fill out all fields</legend>
+                    <legend>Fill out all fields</legend>
                     <label>First Name: <br/><input type="text" id="name-data"></label><br/><br/>
                     <label>Email: <br/><input type="text" id="email-data"></label><br/><br/>
                     <label>Comment</label>
                     <br>
                     <textarea name="comment" id="comment-data" cols="30" rows="10"></textarea>
                     <br><br>
-                    <button type="submit">Send Message</button>
+                    <button type="submit" id = "submit-btn">Send Message</button>
                     <div id="post"></div>         
                 </fieldset>
             </form>
@@ -62,9 +64,8 @@
         </section>
     </div>
 
-    <!-- Basic DOM manipulation -->
-
-    <footer>Copyright &#160; BoardsandWeties.inc</footer>
+<!-- footer -->
+<footer>Copyright &#160; BoardZandFinZ.inc</footer>
 
     <script src="./assets/js/page4.js"></script>
   </body>
